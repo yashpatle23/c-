@@ -1,0 +1,18 @@
+CMD commands:
+	
+
+
+dir = to show all hai folder in directory
+cd .. = to move back in hirechy directory
+cd "directory name"= to move to that directory (directory name can be "D\foldernaem")
+>"Drive name" = to change the drive
+cd / = to get to root directory
+cls = to clear the command promt and come to the top
+mkdir "foldername"= to create a folder
+rmdir "foldername"= to delete a folder
+echo "file contain" >"filename"."filetype" =to create afile with some contain
+del "filename.filetype" = to delete the file
+copy "filename.filetype and foldername" "filelocation"= to copy a file into a folder
+move "filename.filetype and foldername" "filelocation"= to copy a file into a folder
+
+

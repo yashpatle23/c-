@@ -1,0 +1,57 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Frame",
+            "request": "launch",
+            "mainClass": "Frame",
+            "projectName": "c+++_c3068ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch big",
+            "request": "launch",
+            "mainClass": "big",
+            "projectName": "c+++_c3068ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestSynchronization",
+            "request": "launch",
+            "mainClass": "Thread.TestSynchronization",
+            "projectName": "c+++_c3068ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "Thread.test",
+            "projectName": "c+++_c3068ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestWithOutSynochronization",
+            "request": "launch",
+            "mainClass": "Thread.TestWithOutSynochronization",
+            "projectName": "c+++_c3068ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestSynochrnoization",
+            "request": "launch",
+            "mainClass": "Thread.TestSynochrnoization",
+            "projectName": "c+++_c3068ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExThread",
+            "request": "launch",
+            "mainClass": "Thread.ExThread",
+            "projectName": "c+++_c3068ee"
+        }
+    ]
+}

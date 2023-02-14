@@ -1,0 +1,22 @@
+iam overview  - https://cloud.google.com/iam/docs/overview
+Resource hierarchy  -https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hiera
+rchy#resource-hierarchy-detail
+Api   - Application Programming Interface
+iam   - Identity and Access Management 
+Creating and managing projects -https://cloud.google.com/resource-manager/docs/creating-managing-projects
+Create, modify, or close your self-serve Cloud Billing account  -https://cloud.google.com/billing/docs/how-to/manage-billing-account
+For more information on the SDK command-line tools, see: https://cloud.google.com/sdk/cloudplatform
+Note: Currently, the App Engine SDKs are separate downloads. For more information, see: https://cloud.google.com/appengine/downloads
+some or all of these.
+https://cloud.google.com/docs/overview#ways_to_interact_with_the_services
+https://cloud.google.com/sdk/docs/components
+https://cloud.google.com/sdk/gcloud/reference
+https://cloud.google.com/bigquery/bq-command-line-tool
+
+network endpoint group (NEG)
+Google Kubernetes Engine (GKE)
+
+to get info of up-to-date number of servers cloud.google.com/about/locations
+rpc  - remote procedure call
+Google’s technical-infrastructure security at cloud.google.com/security/security-design.
+

@@ -1,0 +1,2 @@
+spicetify apply
+spicetify config

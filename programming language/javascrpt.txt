@@ -1,0 +1,6 @@
+alert(); - to have pop up window
+var variable_name = value - to create a variable
+promt("string any thing"); - to take input
+console.log(); - to print in console
+shift + enter - to write many line in console
+function function_name(){} - to declare a function

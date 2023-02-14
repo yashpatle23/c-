@@ -1,0 +1,31 @@
+git init--> to make local resoritary
+git status--> to view the non added file 
+git add .--> to add to the local resorutory
+git commit -m "commit"-->to get ready the added file
+git remote add origin_name github_link--> to set a origin 
+git push -u origin_name branch_name--> to upload the file 
+git remote -v--> to see all origin 
+git --help--> to go to help
+git remote -v--> to know set origin 
+git remote rm origin_name-->to remove a origin
+git push -u origin_name branch_name--> to push local resority to github server
+git checkout branch_name --> to open the full snapshot
+git branch  --> to show all of the branches
+git switch -c branch_name  --> to switch and create new branch
+git ls-files--> to open list of the files
+git clean -dn --> to list what can be removed
+git clean -df --> to delete listed file
+
+
+
+
+
+
+ git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+

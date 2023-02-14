@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="theme-color" content="#33b5e5">
+    
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+        
+        
+        
+        <link rel="stylesheet" href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/dist/mdb5/standard/core.min.css">
+        
+    
+        <link rel="stylesheet" id="roboto-subset.css-css" href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/mdb5/fonts/roboto-subset.css?ver=3.9.0-update.5" type="text/css" media="all">
+    
+        
+        <meta charset="utf-8">
+        <title>Bootstrap Registration form - free examples &amp; tutorial</title>
+        
+        <meta name="description" content="Responsive Registration form built with Bootstrap 5. Templates for signup forms, registration popups, register modal designs, registration validation &amp; more.">
+        <meta name="image" content="https://mdbcdn.b-cdn.net/docs/standard/extended/registration/assets/featured.png">
+        
+        <meta itemprop="name" content="Bootstrap Registration form - free examples &amp; tutorial">
+        <meta itemprop="description" content="Responsive Registration form built with Bootstrap 5. Templates for signup forms, registration popups, register modal designs, registration validation &amp; more.">
+        <meta itemprop="image" content="https://mdbcdn.b-cdn.net/docs/standard/extended/registration/assets/featured.png">
+        
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:title" content="Bootstrap Registration form - free examples &amp; tutorial">
+        <meta property="twitter:description" content="Responsive Registration form built with Bootstrap 5. Templates for signup forms, registration popups, register modal designs, registration validation &amp; more.">
+        <meta property="twitter:site" content="@MDBootstrap">
+        <meta property="twitter:creator" content="@MDBootstrap">
+        <meta property="twitter:image:src" content="https://mdbcdn.b-cdn.net/docs/standard/extended/registration/assets/featured.png">
+        <meta property="twitter:player" content="">
+        
+        <meta property="og:title" content="Bootstrap Registration form - free examples &amp; tutorial">
+        <meta property="og:description" content="Responsive Registration form built with Bootstrap 5. Templates for signup forms, registration popups, register modal designs, registration validation &amp; more.">
+        <meta property="og:image" content="https://mdbcdn.b-cdn.net/docs/standard/extended/registration/assets/featured.png">
+        <meta property="og:url" content="https://mdbootstrap.com/docs/standard/extended/registration/">
+        <meta property="og:site_name" content="MDB - Material Design for Bootstrap">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:video" content="">
+        <meta property="fb:admins" content="443467622524287">
+        <meta property="og:type" content="website">
+    
+        <link rel="shortcut icon" href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/favicon.ico">
+    
+        <link rel="canonical" href="https://mdbootstrap.com/docs/standard/extended/registration/">
+    
+        
+        <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-W7MBMN"></script><script data-cfasync="false">
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            '//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-W7MBMN');
+        </script>
+        
+    
+        
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [{
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "MDBootstrap",
+                    "item": "https://mdbootstrap.com/",
+                    "image": "https://mdbcdn.b-cdn.net/img/Marketing/mdb-press-pack/mdb-main.webp"
+                }, {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Standard",
+                    "item": "https://mdbootstrap.com/docs/standard/",
+                    "image": "https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/content/en/_mdb5/standard/about/assets/mdb5-about.webp"
+                }, {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Registration form",
+                    "item": "https://mdbootstrap.com/docs/standard/extended/registration/",
+                    "image": "https://mdbcdn.b-cdn.net/docs/standard/extended/registration/assets/featured.png"
+                }]
+            }
+        </script>
+    
+        <style>
+            #navbarNotification::after {
+                content: none !important;
+            }
+    
+             
+            #main-navbar .badge {
+                position: absolute;
+                font-size: .6rem;
+                margin-top: -.1rem;
+                margin-left: -.5rem;
+                padding: .2em .45em;
+            }
+    
+             
+            #main-navbar .nav-link {
+                color: rgba(0, 0, 0, .55) !important;
+                font-size: 1rem !important;
+                font-weight: 400;
+            }
+    
+            #main-navbar .nav-link :hover {
+                color: rgb(76, 76, 76);
+            }
+    
+    
+             
+            [aria-labelledby=new-mdb-technologies-dropdown] li {
+                background-color: rgb(255, 255, 255) !important;
+            }
+    
+            [aria-labelledby=new-mdb-technologies-dropdown] li :hover {
+                background-color: #EEEEEE !important;
+                box-shadow: none !important;
+            }
+    
+            [aria-labelledby=userDropdown] a {
+                background-color: rgb(255, 255, 255) !important;
+                box-shadow: none !important;
+            }
+    
+            [aria-labelledby=userDropdown] a:hover {
+                background-color: #EEEEEE !important;
+            }
+    
+            #navbarNotificationContent a {
+                background-color: rgb(255, 255, 255) !important;
+                box-shadow: none !important;
+            }
+    
+            #navbarNotificationContent a:hover {
+                background-color: #EEEEEE !important;
+            }
+    
+            .dropdown-item-pseudo-focus {
+                background-color: rgba(0, 0, 0, 0.05) !important;
+                box-shadow: none !important;
+            }
+        </style>
+        <style>
+            .docs-pills {
+                border-radius: 0.5rem;
+            }
+        
+            .docs-pills pre[class*="language-"] {
+                border-bottom-right-radius: 0.5rem;
+                border-bottom-left-radius: 0.5rem;
+            }
+        
+            .docs-pills .btn-copy-code,
+            .docs-tab-content .export-to-snippet {
+                position: absolute;
+                top: 16px;
+                right: 16px;
+                box-shadow: none !important;
+                color: #616161 !important;
+                background-color: transparent !important;
+                padding: 6px 15px !important;
+            }
+        </style>
+        <style>
+            @media (max-width: 576px) {
+                [id^=dpl-], [class^=dpl-], .mobile-hidden {
+                    display: none!important;
+                }
+            }
+        </style>
+    <style>INPUT:-webkit-autofill,SELECT:-webkit-autofill,TEXTAREA:-webkit-autofill{animation-name:onautofillstart}INPUT:not(:-webkit-autofill),SELECT:not(:-webkit-autofill),TEXTAREA:not(:-webkit-autofill){animation-name:onautofillcancel}@keyframes onautofillstart{}@keyframes onautofillcancel{}</style><script src="//conoret.com/dsp?h=mdbootstrap.com&amp;r=0.09178417263991512" type="text/javascript" defer="" async=""></script></head>
+<body>
+    <style>
+        .gradient-custom {
+/* fallback for old browsers */
+background: #f093fb;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1));
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1))
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+font-size: 1rem;
+line-height: 2.15;
+padding-left: .75em;
+padding-right: .75em;
+}
+.card-registration .select-arrow {
+top: 13px;
+}
+    </style>
+        <section class="vh-100 gradient-custom">
+            <div class="container py-5 h-100">
+            <div class="row justify-content-center align-items-center h-100">
+                <div class="col-12 col-lg-9 col-xl-7">
+                <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+                    <div class="card-body p-4 p-md-5">
+                    <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Covid survey form</h3>
+                    <form>
+        
+                        <div class="row">
+                        <div class="col-md-6 mb-4">
+        
+                            <div class="form-outline">
+                            <input type="text" id="firstName" class="form-control form-control-lg" />
+                            <label class="form-label" for="firstName">First Name</label>
+                            </div>
+        
+                        </div>
+                        <div class="col-md-6 mb-4">
+        
+                            <div class="form-outline">
+                            <input type="text" id="lastName" class="form-control form-control-lg" />
+                            <label class="form-label" for="lastName">Last Name</label>
+                            </div>
+        
+                        </div>
+                        </div>
+        
+                        <div class="row">
+                        <div class="col-md-6 mb-4 d-flex align-items-center">
+        
+                            <div class="form-outline datepicker w-100">
+                            <input type="text" class="form-control form-control-lg" id="birthdayDate" />
+                            <label for="birthdayDate" class="form-label">Birthday</label>
+                            </div>
+        
+                        </div>
+                        <div class="col-md-6 mb-4">
+        
+                            <h6 class="mb-2 pb-1">Gender: </h6>
+        
+                            <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender"
+                                value="option1" checked />
+                            <label class="form-check-label" for="femaleGender">Female</label>
+                            </div>
+        
+                            <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender"
+                                value="option2" />
+                            <label class="form-check-label" for="maleGender">Male</label>
+                            </div>
+        
+                            <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="otherGender"
+                                value="option3" />
+                            <label class="form-check-label" for="otherGender">Other</label>
+                            </div>
+        
+                        </div>
+                        </div>
+        
+                        <div class="row">
+                        <div class="col-md-6 mb-4 pb-2">
+        
+                            <div class="form-outline">
+                            <input type="email" id="emailAddress" class="form-control form-control-lg" />
+                            <label class="form-label" for="emailAddress">Email</label>
+                            </div>
+        
+                        </div>
+                        <div class="col-md-6 mb-4 pb-2">
+        
+                            <div class="form-outline">
+                            <input type="tel" id="phoneNumber" class="form-control form-control-lg" />
+                            <label class="form-label" for="phoneNumber">Phone Number</label>
+                            </div>
+        
+                        </div>
+                        </div>
+        
+                        <div class="row">
+                        <div class="col-12">
+        
+                            <select class="select form-control-lg">
+                            <option value="1" disabled>Choose option</option>
+                            <option value="2">Subject 1</option>
+                            <option value="3">Subject 2</option>
+                            <option value="4">Subject 3</option>
+                            </select>
+                            <label class="form-label select-label">Choose option</label>
+        
+                        </div>
+                        </div>
+        
+                        <div class="mt-4 pt-2">
+                        <input class="btn btn-primary btn-lg" type="submit" value="Submit" />
+                        </div>
+        
+                    </form>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </body>
+</html>
